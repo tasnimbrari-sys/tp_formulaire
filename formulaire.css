@@ -1,0 +1,77 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fceef3;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    color: #c44569;
+    text-transform: capitalize;/*awel haref men kol kelmaa yebda bel majus*/
+}
+
+/* Formulaire */
+form {
+    width: 350px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+/* Cadre */
+fieldset {
+    border: 2px solid #e8a0b5;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Légende */
+legend {
+    color: #c44569;
+    font-weight: bold;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Champs de saisie */
+input {
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Boutons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Bouton annuler */
+button[type="reset"] {
+    background-color: rgb(96, 158, 83);
+}
+
+/* Bouton envoyer */
+button[type="submit"] {
+    background-color: #c44569;
+    color: white;
+}
+
+/* Effet au survol */
+button:hover {
+    opacity: 0.8;
+    color: aquamarine;
+}
